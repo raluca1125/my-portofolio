@@ -163,13 +163,19 @@ body {
   .mainContent {
     position: relative;
     display: block;
-    left: 14%;
+    left: -8%;
+    right: 0;
     align-content: center; 
+    width: 190%;
   }
 
   .videoDrawing {
     left: 14%;
     width: auto;
     height: auto;
+  }
+
+  .personalInfo {
+    left: 2%;
   }
 }
