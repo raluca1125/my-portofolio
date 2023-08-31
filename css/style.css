@@ -186,9 +186,16 @@ body {
     padding: 0;
     padding-bottom: 30px;
   }
-  
+
   .logo img {
     right: 60%;
+  }
+
+  .subtitles h3 {
+    font-size: 170%;
+    position: relative;
+    left: -500%;
+    bottom: 14%;
   }
   
 }
