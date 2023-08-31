@@ -188,14 +188,15 @@ body {
   }
 
   .logo img {
-    right: 60%;
+    right: 54%;
   }
 
   .subtitles h3 {
-    font-size: 170%;
-    position: relative;
-    left: -500%;
-    bottom: 14%;
+    display: none;
+  }
+
+  .planetIcon {
+    font-size: 67px;  
   }
   
 }
