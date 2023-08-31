@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: cursive;
+  list-style: none;
+}
+body {
+  background-image: url("../icons/bg1.jpg");
+  max-height: 100%;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* opacity: 0.9; */
+}
+
+.artHeader{
+  background-color: #000000ba;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.bannerIntro {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.logo img {
+  max-width:12%;
+  max-height: 58%;
+  position: relative;
+  right: 10%;
+  top: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planetIcon {
+  width: 30%;
+  font-size: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
+  
+}
+
+.subtitles {
+  font-size: medium;
+  position: relative;
+  top: 35%;
+  right: 8%;
+}
+
+.subtitles h1 {
+  font-size: 170%;
+  position: relative;
+  left: 47%;
+  bottom: 24%;
+}
+
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff4df;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000ce;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #808080;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #606060;
+}
+
+.mainContent {
+  position: relative;
+  display: flex;
+  left: 22%;
+  align-content: center;
+  
+}
+
+.videoDrawing {
+  display: block;
+  position: relative;
+  top: 23rem;
+  left: 33%;
+  padding-bottom: 120px;
+}
+
+.videoDrawing h1 {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  
+}
+
+.slideshow-container h1 {
+  padding: 10px;
+}
+
+.slideshow-containerS h1 {
+  padding: 10px;
+}
+
+.portofolioPage {
+  display: block;
+}
+
+.portofolioPage .contactDetails {
+  display: block;
+  align-items: end;
+}
+
+.personalInfo {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 22%;
+  top: 20rem;
+  align-items: center;
+  padding: 120px;
+}
+
+.info {
+  padding: 10px;
+  font-size: 20px;
+}
+
+
