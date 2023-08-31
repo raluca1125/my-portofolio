@@ -159,4 +159,17 @@ body {
   font-size: 20px;
 }
 
+@media (max-width: 821px) {
+  .mainContent {
+    position: relative;
+    display: block;
+    left: 14%;
+    align-content: center; 
+  }
 
+  .videoDrawing {
+    left: 14%;
+    width: auto;
+    height: auto;
+  }
+}
