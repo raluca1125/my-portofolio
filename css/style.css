@@ -167,6 +167,7 @@ body {
     right: 0;
     align-content: center; 
     width: 190%;
+    padding: 0;
   }
 
   .videoDrawing {
@@ -177,5 +178,17 @@ body {
 
   .personalInfo {
     left: 2%;
+    padding: 0;
+    padding-bottom: 30px;
   }
+
+  .info {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  
+  .logo img {
+    right: 60%;
+  }
+  
 }
